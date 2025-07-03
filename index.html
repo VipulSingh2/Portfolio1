@@ -1057,34 +1057,49 @@
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+    <article class="contact" data-page="contact">
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
 
-        <form action="https://formsubmit.co/21a6ce12e466f9e6cf881a199179240e" method="POST">
-  <div class="input-wrapper">
-    <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
-    <input type="email" name="email" class="form-input" placeholder="Email address" required>
-  </div>
+  <form action="https://formsubmit.co/21a6ce12e466f9e6cf881a199179240e" method="POST">
 
+    <div class="input-wrapper">
+      <input
+        type="text"
+        name="fullname"
+        class="form-input"
+        placeholder="Full name"
+        required
+      >
+      <input
+        type="email"
+        name="email"
+        class="form-input"
+        placeholder="Email address"
+        required
+      >
+    </div>
 
+    <textarea
+      name="message"
+      class="form-input"
+      placeholder="Your Message"
+      required
+    ></textarea>
 
-          <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+    <!-- optional hidden fields for FormSubmit -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="box">
 
-          <!-- Optional hidden fields -->
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="box"> <!-- optional style -->
+    <button class="form-btn" type="submit">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+  </form>
 
-          <button class="form-btn" type="submit">
-            <ion-icon name="paper-plane"></ion-icon>
-            <span>Send Message</span>
-          </button>
-        </form>
-
-
-      </article>
+</article>
 
     </div>
 
