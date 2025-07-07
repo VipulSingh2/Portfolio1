@@ -15,6 +15,21 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+.certificate-banner-box img{
+ height: 200px;
+ width: 300px;
+}
+
+@media (max-width: 767px){
+ .certificate-banner-box img{
+ max-width: 100%;
+}
+}
+
+body p{
+ color: #fff !important;
+}
+
 :root {
 
   /**
