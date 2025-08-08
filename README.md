@@ -52,7 +52,7 @@ This portfolio showcases my work as a passionate data analyst skilled in **Pytho
 ## 🤝 Connect With Me
 
 - **GitHub:** [VipulSingh2](https://github.com/VipulSingh2)
-- **Email:** _Add your email here_
+
 
 ---
 
